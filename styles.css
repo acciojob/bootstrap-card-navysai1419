@@ -1,2 +1,56 @@
 
 /* Your CSS Code here. */
+/* Custom CSS for the card deck */
+
+/* Set background color for the entire body */
+body {
+    background-color: #f8f9fa; /* You can change this color to fit your design */
+}
+
+/* Set margin at the top for better spacing */
+.container {
+    margin-top: 20px;
+}
+
+/* Set a max-width for the card deck container */
+.card-deck {
+    max-width: 800px;
+    margin: 0 auto; /* Center the card deck */
+}
+
+/* Add some spacing between cards */
+.card {
+    margin-bottom: 20px;
+}
+
+/* Style the card headers */
+.card-header {
+    background-color: #007bff; /* Blue color for the header */
+    color: #fff; /* White text for the header */
+}
+
+/* Style the card titles */
+.card-title {
+    color: #007bff; /* Blue color for the title */
+}
+
+/* Style the card text */
+.card-text {
+    color: #343a40; /* Dark text color for the content */
+}
+
+/* Style the button */
+.btn-primary {
+    background-color: #007bff; /* Blue color for the button */
+    border-color: #007bff; /* Blue color for the button border */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+    border-color: #0056b3; /* Darker blue color for the button border on hover */
+}
+
+/* Style the muted text */
+.text-muted {
+    color: #6c757d; /* Gray color for the muted text */
+}
